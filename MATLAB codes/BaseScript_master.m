@@ -22,7 +22,7 @@ clear
 clear global  
 
 %% Set simulation options
-load(['reactions_final.mat']); %contains speciesNames, reactionRules, tau, ymax 
+load('reactions_final.mat'); %contains speciesNames, reactionRules, tau, ymax 
 
 %Initial conditions
 y0=zeros(1,length(speciesNames));
@@ -32,7 +32,7 @@ Wss_IC=0.5;
 y0(ActiveInputs)=ival;  
 y0(2)=Wss_IC;
 
-ODEfilename=['ODElist_final']; %contains list of ODEs for our system
+ODEfilename='ODElist_final'; %contains list of ODEs for our system
 
 %Uniform parameters, reference case
 w=1; 
