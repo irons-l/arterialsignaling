@@ -3,7 +3,7 @@ MATLAB codes for a logic-based model of arterial wall signaling, which accompany
 
 These codes are based on open source code available at: 
        github.com/saucermanlab/netflux
-for simulating logic-based signaling networks with normalized Hill ODEs. The methods were described originally in: 
+for simulating logic-based signaling networks with normalized Hill ODEs (see Third party licenses.txt). The methods were described originally in: 
        Kraeutler, M.J., Soltis, A.R., & Saucerman, J.J. (2010). `Modeling cardiac B-adrenergic signaling with normalized-Hill differential equations: comparison with a biochemical model.' BMC Systems Biology.
 
 ## Files include:
